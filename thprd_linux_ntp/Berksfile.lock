@@ -1,0 +1,7 @@
+DEPENDENCIES
+  thprd_linux_ntp
+    path: .
+    metadata: true
+
+GRAPH
+  thprd_linux_ntp (0.1.0)
