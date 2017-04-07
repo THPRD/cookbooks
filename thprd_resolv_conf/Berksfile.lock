@@ -1,0 +1,7 @@
+DEPENDENCIES
+  thprd_resolv_conf
+    path: .
+    metadata: true
+
+GRAPH
+  thprd_resolv_conf (0.1.0)
