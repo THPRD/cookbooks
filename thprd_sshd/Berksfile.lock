@@ -1,0 +1,7 @@
+DEPENDENCIES
+  thprd_sshd
+    path: .
+    metadata: true
+
+GRAPH
+  thprd_sshd (0.1.1)
