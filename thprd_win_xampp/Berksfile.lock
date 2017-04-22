@@ -1,0 +1,11 @@
+DEPENDENCIES
+  thprd_win_xampp
+    path: .
+    metadata: true
+
+GRAPH
+  ohai (5.0.3)
+  thprd_win_xampp (0.1.1)
+    windows (>= 0.0.0)
+  windows (3.0.5)
+    ohai (>= 4.0.0)
