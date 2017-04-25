@@ -4,7 +4,7 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures thprd_win_xampp'
 long_description 'Installs/Configures thprd_win_xampp'
-version '0.4.0'
+version '0.4.1'
 
 depends 'windows'
 
