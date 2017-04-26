@@ -1,0 +1,7 @@
+DEPENDENCIES
+  thprd_centos_proxy
+    path: .
+    metadata: true
+
+GRAPH
+  thprd_centos_proxy (0.1.0)
