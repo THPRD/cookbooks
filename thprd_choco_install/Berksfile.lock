@@ -1,0 +1,7 @@
+DEPENDENCIES
+  thprd_choco_install
+    path: .
+    metadata: true
+
+GRAPH
+  thprd_choco_install (0.1.0)
