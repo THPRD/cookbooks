@@ -9,10 +9,15 @@
   }
 },
 "override_attributes": {
+  "chef_client": {
+    "http_proxy": "http://192.168.160.2:8080",
+    "https_proxy": "http://192.168.160.2:8080"
+  }
 },
 "chef_type": "role",
 "run_list": ["recipe[chef-client::default]",
              "recipe[chef-client::delete_validation]",
+             "recipe[chef-client::task]",
              "recipe[thprd_win_ntp]",
              "recipe[thprd_win_proxy]"
 ],
