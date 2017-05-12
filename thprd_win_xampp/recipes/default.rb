@@ -29,5 +29,5 @@ end
 
 #make sure apache is running
 windows_service 'apache2.4' do
-  action :start #, :enable
+  action [:enable, :start]
 end
